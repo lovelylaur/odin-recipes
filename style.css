@@ -7,20 +7,47 @@ html {
 }
 
 .card {
-    background-color: rgb(255, 244, 250);
-    margin: 10px;
+    margin: auto 110px;
     padding: 12px 8px;
+    background-color: aliceblue;
 }
 
 .title {
     font-family: Helvetica, sans-serif;
-    color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
     text-align: center;
-    background-color: rgb(255, 184, 221);
+    background-color: rgb(70, 3, 141);
+    margin: 10px 200px;
+    padding: 8px;
+    font-size: 38px;
 }
 
 li {
     font-family: Montserrat, sans-serif;
     text-align: center;
     list-style-type: none;
+    display: block;
+    margin: 10px 200px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+li.cheese {
+    background-color: rgb(187, 239, 242);
+
+}
+
+li.yogurt {
+    background-color: rgb(218, 195, 244);
+    
+
+}
+
+li.cookie {
+    background-color: rgb(187, 239, 242);
+
+}
+
+a {
+    color:rgb(53, 53, 53);
 }
