@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.card {
+    background-color: rgb(255, 244, 250);
+    margin: 10px;
+    padding: 12px 8px;
+}
+
+.title {
+    font-family: Helvetica, sans-serif;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    background-color: rgb(255, 184, 221);
+}
+
+li {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    list-style-type: none;
+}
